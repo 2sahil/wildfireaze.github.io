@@ -278,10 +278,11 @@ header {
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s, visibility 0.3s;
-  display: flex;
+  display: flex; /* This line is redundant and should be removed */
   justify-content: center;
   align-items: center;
 }
+
 
 #scrollToTopBtn:hover {
   background-color: #e55a00;
